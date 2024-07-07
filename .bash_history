@@ -1,0 +1,2 @@
+poetry --version
+git status
