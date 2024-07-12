@@ -51,3 +51,52 @@ git remote -v
 git status
 git commit
 git push
+ls
+cd brain games
+cd brain_games
+ls
+cd scripts
+ls
+nano brain_games.py
+cad brain_games.py
+~
+cd home
+cd /home
+ls
+cd user
+ls
+poetry run python -m brain_games.scripts.brain_games
+cd brain_games
+ls
+cd scripts
+ls
+nano brain_games
+nano brain_games.py
+~
+cd /home/user
+ls
+poetry run python -m brain_games.scripts.brain_games
+cd
+cd brain_games
+cd scripts
+ls
+nano brain_games.py
+cd /home/user
+poetry run python -m brain_games.scripts.brain_games
+poetry install
+poetry run brain-games
+poetry install brain_games
+git status
+git add .
+git commit -m 'vtoroi comit'
+git push
+ls
+cd brain_games
+ls
+cd scripts
+ls
+nano brain_games.py
+cd /home/user
+ls
+poetry install
+poetry run brain-games
