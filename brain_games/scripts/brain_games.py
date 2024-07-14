@@ -3,3 +3,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+from brain_games.cli import welcome_user

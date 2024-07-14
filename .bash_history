@@ -100,3 +100,45 @@ cd /home/user
 ls
 poetry install
 poetry run brain-games
+psw
+pdw
+ls
+git status
+git add .
+git commit -m '3'
+git push
+python3 --version
+ды
+ls
+touch Makefile
+ls
+nano Makefile
+nano brain_games.py
+nano Makefile
+nano .gitignore
+nano Makefile
+python3 -m pip install --user dist/*.whl
+make brain-games
+make package-install
+nano Makefile
+python3 -m pip install --user dist/*.whl
+make brain-game
+nano Makefile
+make brain-game
+nano Makefile
+make brain-games
+nano Makefile
+make brain-games
+python3 -m pip install --user dist/*.whl
+nano brain_games.py
+nano Makefile
+make build
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
+make package-install
+brain-games
+git status
+git add .
+git commit -m '4, vipolnen 2 punkt'
+git push
