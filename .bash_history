@@ -142,3 +142,64 @@ git status
 git add .
 git commit -m '4, vipolnen 2 punkt'
 git push
+ls
+cd brain_games
+ls
+nano cli.py
+scripts
+cd ccripts
+cd scripts
+ls
+nano brain_games.py
+cd ..
+ls
+cd brain_games
+ls
+nano brain_games.py
+cd
+ls
+nano brain_games.py
+cd brain_games
+ls
+nano brain_games.py
+cd scripts
+ls
+nano brain_games
+nano brain_games.py
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
+cd /
+ls
+cd home
+ls
+cd user
+ls
+brain_games
+brain-games
+make brain-games
+make build
+make brain-games
+build
+make build
+ls
+cd brain_games
+ls
+cd scripts
+ls
+nano brain_games.py
+cd ..
+ls
+git status
+git add .
+git commit -m '5'
+git push
+git status
+cd brain_games
+cd
+ls
+cd brain_games
+ls
+cd scripts
+ls
+nano brain_games.py
