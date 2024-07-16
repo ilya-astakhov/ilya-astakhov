@@ -203,3 +203,33 @@ ls
 cd scripts
 ls
 nano brain_games.py
+git status
+make brain-games
+brain-games
+ls
+cd brain-games
+cd brain_games
+ls
+cd scripts
+ls
+nano brain_games.py
+cd
+ls
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
+make brain-games
+brain-games
+git status
+make brain-games
+brain-games
+cd brain_games
+cd scripts
+ls
+nano brain_games.py
+cd
+ls
+make build
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
