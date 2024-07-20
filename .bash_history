@@ -238,3 +238,15 @@ brain-games
 git add .
 git commit -m '7'
 git push
+ls
+cd brain_games
+ls
+nano cli.py
+cd
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
+make brain-games
+git add .
+git commit -m '7'
+git push
