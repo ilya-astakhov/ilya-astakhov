@@ -250,3 +250,88 @@ make brain-games
 git add .
 git commit -m '7'
 git push
+ls
+nano README.md
+poetry add --group dev flake8
+ls
+nano setup.cfg
+ls
+poetry run flake8 brain_games
+cd brain_games
+cd scripts
+ls
+nano brain_games.py
+cd
+ls
+poetry run flake8 brain_games
+cd brain_games
+cd scripts
+nano brain_games.py
+ls
+cd
+poetry run flake8 brain_games
+ls
+nano Makefile
+lint
+make lint
+nano Makefile
+make lint
+nano Makefile
+make lint
+nano Makefile
+git add .
+git commit -m '8'
+git push
+ls
+cd brain_games
+cd
+cd brain_games
+cd scripts
+ls
+touch brain_even.py
+ls
+nano brain_even.py
+cd
+ls
+nano pyproject.toml
+ls
+cd brain_games
+cd scripts
+ls
+nano brain_even.py
+cd
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
+make package-install
+brain-games
+make brain-games
+poetry run brain-games
+poetry run
+poetry run brain-games
+brain-even
+poetry run brain-even
+ls
+brain-even
+ls
+nano pyproject.toml
+brain-even
+ls
+cd brain_games
+cd sxripts
+cd scripts
+ls
+nano brain_even.py
+brain-even
+ls
+nano pyproject.toml
+brain-even
+make brain-games
+ls
+cd brain_games
+cd scripts
+ls
+touch brain_calc.py
+ls
+nano brain_calc.py
+nano brain_even.py
