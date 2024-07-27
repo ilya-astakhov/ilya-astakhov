@@ -335,3 +335,58 @@ touch brain_calc.py
 ls
 nano brain_calc.py
 nano brain_even.py
+ls
+git add
+git add .
+git commit -m '9'
+git push
+ls
+make package=install
+poetry run brain-even
+ls
+python3 -m pip install --user dist/*.whl
+poetry run brain-even
+poetry build
+python3 -m pip install --user dist/*.whl
+poetry run brain-even
+ls
+cd brain_games
+cd scripts
+ls
+touch brain_gcd.py
+ls
+nano brain_gcd.py
+cd
+ls
+nano pyproject.toml
+ls
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user --force-reinstall dist/*.whl
+poerty run brain-even
+poetry run brain-even
+brain-games
+brain-even
+ls
+cd brain_games
+ls
+cd scripts
+ls
+touch import random
+def prime():
+prime()
+git status
+ls
+cd brain_games
+cd scripts
+ls
+rm import
+rm random
+ls
+touch brain_prime.py
+ls
+nano brain_prime.py
+git add .
+git commit -m '10'
+git push
+git status
