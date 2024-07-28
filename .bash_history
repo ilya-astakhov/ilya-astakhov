@@ -390,3 +390,56 @@ git add .
 git commit -m '10'
 git push
 git status
+ls
+cd brain_games
+ls
+cd scripts
+ls
+touch brain_progression.py
+nano brain_progression.py
+git status
+cd
+ls
+nano pyproject.toml
+git add .
+git commit -m 'vsegotovo1'
+git push
+git status
+ls
+cd brain_games
+l
+ls
+cd scripts
+ls
+nano brain_even.py
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
+cd
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
+make package-install
+brain-games
+brain-even
+ls
+cd scripts
+cd brain_games
+ls
+cd scripts
+ls
+nano brain_games.py
+nano brain-even
+ls
+nano brain_even.py
+cd
+brain-even
+install
+make package-install
+make brain-even
+brain-even
+cd
+ls
+cd brain_games
+cd scripts
+ls
+nano brain_even.py

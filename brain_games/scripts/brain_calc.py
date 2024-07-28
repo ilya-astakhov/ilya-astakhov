@@ -1,27 +1,10 @@
 import random
 
+
 def even():
     print('What is the result of the expression?')
-    a = random.randint(1, 9) #первый проход
-    b = random.randint(1, 9)
-    seq = ['+', "-", "*"]
-    c = random.choice(seq)
-    print("Question:", a, c, b)
-    if c == '+':
-        d = a + b
-    elif c == '-':
-        d = a - b
-    elif c == '*':
-        d = a * b
-    #print(d)
-    y = int(input("Your answer:"))
-    if y == d:
-        print('Correct!')
-    else:
-        y != d
-        print("'",y,"' is wrong answer ;(. Correct answer was '",d,"'.\nLet's try again, Sam!")
-        return
-    a = random.randint(1, 9) #второй проход
+    # первый проход
+    a = random.randint(1, 9)
     b = random.randint(1, 9)
     seq = ['+', "-", "*"]
     c = random.choice(seq)
@@ -37,9 +20,29 @@ def even():
         print('Correct!')
     else:
         y != d
-        print("'",y,"' is wrong answer ;(. Correct answer was '",d,"'.\nLet's try again, Sam!")
+        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again, Sam!")  # noqa: E501
         return
-    a = random.randint(1, 9) #третий проход
+    # второй проход
+    a = random.randint(1, 9)
+    b = random.randint(1, 9)
+    seq = ['+', "-", "*"]
+    c = random.choice(seq)
+    print("Question:", a, c, b)
+    if c == '+':
+        d = a + b
+    elif c == '-':
+        d = a - b
+    elif c == '*':
+        d = a * b
+    y = int(input("Your answer:"))
+    if y == d:
+        print('Correct!')
+    else:
+        y != d
+        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again, Sam!")  # noqa: E501
+        return
+    # третий проход
+    a = random.randint(1, 9)
     b = random.randint(1, 9)
     seq = ['+', "-", "*"]
     c = random.choice(seq)
@@ -56,6 +59,5 @@ def even():
         return
     else:
         y != d
-        print("'",y,"' is wrong answer ;(. Correct answer was '",d,"'.\nLet's try again, Sam!")
+        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again, Sam!")  # noqa: E501
         return
-even()
