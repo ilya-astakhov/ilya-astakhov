@@ -1,7 +1,17 @@
 import random
+from brain_games.cli import welcome_user
 
 
-def even():
+def main():
+    welcome_user()
+    calc()
+
+
+if __name__ == '__main__':
+    main()
+
+
+def calc():
     print('What is the result of the expression?')
     # первый проход
     a = random.randint(1, 9)

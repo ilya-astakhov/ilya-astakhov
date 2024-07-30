@@ -1,4 +1,14 @@
 import random
+from brain_games.cli import welcome_user
+
+
+def main():
+    welcome_user()
+    progression()
+
+
+if __name__ == '__main__':
+    main()
 
 
 def progression():
@@ -17,6 +27,7 @@ def progression():
     else:
         y != x
         print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again, Sam!")  # noqa: E501
+        return
     # вторая проходка
     a = random.randint(1, 50)
     b = random.randint(2, 4)
@@ -32,6 +43,7 @@ def progression():
     else:
         y != x
         print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again, Sam!")  # noqa: E501
+        return
     # третья проходка
     a = random.randint(1, 50)
     b = random.randint(2, 4)
@@ -47,3 +59,4 @@ def progression():
     else:
         y != x
         print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again, Sam!")  # noqa: E501
+        return
