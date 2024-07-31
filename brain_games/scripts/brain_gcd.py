@@ -3,7 +3,7 @@ from brain_games.cli import welcome_user
 
 
 def main():
-    welcome_user()
+    # welcome_user()
     nod()
 
 
@@ -12,6 +12,7 @@ if __name__ == '__main__':
 
 
 def nod():
+    name1 = welcome_user()
     print('Find the greatest common divisor of given numbers.')
     # первый проход
     a = random.randint(1, 99)
@@ -27,7 +28,7 @@ def nod():
         print('Correct!')
     else:
         y != a
-        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again, Sam!")  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again,", name1)  # noqa: E501
         return
     # второй проход
     a = random.randint(1, 99)
@@ -43,7 +44,7 @@ def nod():
         print('Correct!')
     else:
         y != a
-        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again, Sam!")  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again,", name1)  # noqa: E501
         return
     # третий проход
     a = random.randint(1, 99)
@@ -56,8 +57,8 @@ def nod():
             b = b - a
     y = int(input("Your answer:"))
     if y == a:
-        print('Correct!\nCongratulations, Sam!')
+        print('Correct!\nCongratulations,', name1)
     else:
         y != a
-        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again, Sam!")  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", a, "'.\nLet's try again,", name1)  # noqa: E501
         return

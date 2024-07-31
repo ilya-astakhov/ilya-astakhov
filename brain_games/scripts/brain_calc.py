@@ -3,7 +3,7 @@ from brain_games.cli import welcome_user
 
 
 def main():
-    welcome_user()
+    # welcome_user()
     calc()
 
 
@@ -12,6 +12,7 @@ if __name__ == '__main__':
 
 
 def calc():
+    name1 = welcome_user()
     print('What is the result of the expression?')
     # первый проход
     a = random.randint(1, 9)
@@ -30,7 +31,7 @@ def calc():
         print('Correct!')
     else:
         y != d
-        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again, Sam!")  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again,", name1)  # noqa: E501
         return
     # второй проход
     a = random.randint(1, 9)
@@ -49,7 +50,7 @@ def calc():
         print('Correct!')
     else:
         y != d
-        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again, Sam!")  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again,", name1)  # noqa: E501
         return
     # третий проход
     a = random.randint(1, 9)
@@ -65,9 +66,9 @@ def calc():
         d = a * b
     y = int(input("Your answer:"))
     if y == d:
-        print('Correct!\nCongratulations, Sam!')
+        print('Correct!\nCongratulations,', name1)
         return
     else:
         y != d
-        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again, Sam!")  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", d, "'.\nLet's try again,", name1)  # noqa: E501
         return

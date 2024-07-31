@@ -3,7 +3,7 @@ from brain_games.cli import welcome_user
 
 
 def main():
-    welcome_user()
+    # welcome_user()
     progression()
 
 
@@ -12,6 +12,7 @@ if __name__ == '__main__':
 
 
 def progression():
+    name1 = welcome_user()
     print('What number is missing in the progression?')
     a = random.randint(1, 50)
     b = random.randint(2, 4)
@@ -26,7 +27,7 @@ def progression():
         print('Correct!')
     else:
         y != x
-        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again, Sam!")  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again,", name1)  # noqa: E501
         return
     # вторая проходка
     a = random.randint(1, 50)
@@ -42,7 +43,7 @@ def progression():
         print('Correct!')
     else:
         y != x
-        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again, Sam!")  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again,", name1)  # noqa: E501
         return
     # третья проходка
     a = random.randint(1, 50)
@@ -55,8 +56,8 @@ def progression():
     print("Question:", result)
     y = int(input("Your answer:"))
     if y == x:
-        print('Correct!\nCongratulations, Sam!')
+        print('Correct!\nCongratulations,', name1)
     else:
         y != x
-        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again, Sam!")  # noqa: E501
+        print("'", y, "' is wrong answer ;(. Correct answer was '", x, "'.\nLet's try again,", name1)  # noqa: E501
         return

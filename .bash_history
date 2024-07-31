@@ -545,3 +545,67 @@ poetry run brain calc
 poetry run brain-calc
 poetry run brain-progression
 poetry run brain-even
+cd brain_games
+cd scripts
+nano brain_even.py
+cd
+poetry run brain-even
+cd brain_games
+cd scripts
+nano brain_even.py
+nano brain_calc.py
+cd
+poetry run brain-calc
+cd brain_games
+cd scripts
+nano brain_gcd.py
+cd
+poetry run brain-gcd
+cd brain_games
+cd scripts
+nano brain_progression.py
+cd
+poetry run brain-progression
+cd brain_games
+cd scripts
+nano brain_prime.py
+cd
+poetry run brain-prime
+cd brain_games
+cd scripts
+nano brain_prime.py
+cd
+poetry run brain-prime
+cd brain_games
+cd scripts
+nano brain_prime.py
+cd
+poetry run brain-prime
+nano brain_calc.py
+oetry run brain-even
+poetry run brain-even
+poetry run brain-progression
+cd brain_games
+cd scripts
+nano brain_progression.py
+cd
+nano brain_progression.py
+poetry run brain-progression
+poetry run brain-gcd
+poetry run brain-calc
+git add .
+git commit -m 'vsegotovo3'
+git push
+cd brain_games
+cd scripts
+ls
+rm brain_games
+ls
+cd'
+ls
+poetry run flake8 brain_games
+cd brain_games
+cd scripts
+nano brain_even.py
+cd
+poetry run brain-even
