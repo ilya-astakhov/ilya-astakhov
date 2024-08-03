@@ -609,3 +609,105 @@ cd scripts
 nano brain_even.py
 cd
 poetry run brain-even
+cd brain_games
+cd scripts
+cd .
+cd
+cd brain_games
+ls
+nano cli.py
+cd scripts
+cd
+nano brain_calc.py
+poetry run brain-calc
+cd brain_games
+cd scripts
+nano brain_calc.py
+cd
+poetry run brain-calc
+poetry run brain-gcd
+cd brain_games
+cd scripts
+nano brain_calc.py
+cd
+poetry run brain-calc
+cd brain_games
+ды
+ls
+nano cli.py
+cd
+poetry run brain-calc
+cd brain_games
+cd scripts
+nano brain_calc.py
+cd
+poetry run brain-calc
+cd brain_games
+cd scripts
+nano brain_calc.py
+cd
+poetry run brain-calc
+cd brain_games
+cd scripts
+nano brain_calc.py
+cd
+poetry run brain-calc
+cd brain_games
+cd scripts
+nano brain_calc.py
+cd
+poetry run brain-calc
+cd brain_games
+cd scripts
+nano brain_calc.py
+nano brain_gcd.py
+nano brain_progression.py
+nano brain_even.py
+nano brain_prime.py
+cd
+name1 = welcome_user()
+poetry run brain-calc
+poetry run brain-gcd
+poetry run brain-progression
+poetry run brain-even
+poetry run brain-prime
+poetry run flake8 brain_games
+cd brain_games
+cd scripts
+nano brain_calc.py
+cd
+poetry run flake8 brain_games
+git add ,
+git add .
+git commit -m 'vsegotovo4'
+git push
+ды
+ls
+brain-calc
+nano Makefile
+brain-game
+brain-games
+nano Makefile
+lint
+nano Makefile
+brain-calc
+brain-even
+poetry run brain-even
+poetry build
+poetry publish --dry-run
+python3 -m pip install --user dist/*.whl
+make package-install
+brain-games
+brain-calc
+brain-even
+brain-prime
+ls
+nano pyproject.toml
+d
+asciinema play demo.cast
+grfdgfhfg
+poetry run brain-calc
+poetry run brain-progression
+poetry run brain-even
+poetry run brain-gcd
+poetry run brain-prime
